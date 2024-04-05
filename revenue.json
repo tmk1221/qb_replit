@@ -1,0 +1,303 @@
+{
+    "Header": {
+        "Time": "2024-04-05T15:24:26-07:00",
+        "ReportName": "ProfitAndLoss",
+        "ReportBasis": "Accrual",
+        "StartPeriod": "2023-01-01",
+        "EndPeriod": "2023-12-31",
+        "SummarizeColumnsBy": "Total",
+        "Currency": "USD",
+        "Option": [
+            {
+                "Name": "AccountingStandard",
+                "Value": "GAAP"
+            },
+            {
+                "Name": "NoReportData",
+                "Value": "false"
+            }
+        ]
+    },
+    "Columns": {
+        "Column": [
+            {
+                "ColTitle": "",
+                "ColType": "Account",
+                "MetaData": [
+                    {
+                        "Name": "ColKey",
+                        "Value": "account"
+                    }
+                ]
+            },
+            {
+                "ColTitle": "Total",
+                "ColType": "Money",
+                "MetaData": [
+                    {
+                        "Name": "ColKey",
+                        "Value": "total"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rows": {
+        "Row": [
+            {
+                "Header": {
+                    "ColData": [
+                        {
+                            "value": "Income"
+                        },
+                        {
+                            "value": ""
+                        }
+                    ]
+                },
+                "Rows": {
+                    "Row": [
+                        {
+                            "Header": {
+                                "ColData": [
+                                    {
+                                        "value": "Landscaping Services",
+                                        "id": "45"
+                                    },
+                                    {
+                                        "value": "280.00"
+                                    }
+                                ]
+                            },
+                            "Rows": {
+                                "Row": [
+                                    {
+                                        "Header": {
+                                            "ColData": [
+                                                {
+                                                    "value": "Job Materials",
+                                                    "id": "46"
+                                                },
+                                                {
+                                                    "value": ""
+                                                }
+                                            ]
+                                        },
+                                        "Rows": {
+                                            "Row": [
+                                                {
+                                                    "ColData": [
+                                                        {
+                                                            "value": "Fountains and Garden Lighting",
+                                                            "id": "48"
+                                                        },
+                                                        {
+                                                            "value": "323.00"
+                                                        }
+                                                    ],
+                                                    "type": "Data"
+                                                },
+                                                {
+                                                    "ColData": [
+                                                        {
+                                                            "value": "Plants and Soil",
+                                                            "id": "49"
+                                                        },
+                                                        {
+                                                            "value": "131.25"
+                                                        }
+                                                    ],
+                                                    "type": "Data"
+                                                },
+                                                {
+                                                    "ColData": [
+                                                        {
+                                                            "value": "Sprinklers and Drip Systems",
+                                                            "id": "50"
+                                                        },
+                                                        {
+                                                            "value": "108.00"
+                                                        }
+                                                    ],
+                                                    "type": "Data"
+                                                }
+                                            ]
+                                        },
+                                        "Summary": {
+                                            "ColData": [
+                                                {
+                                                    "value": "Total Job Materials"
+                                                },
+                                                {
+                                                    "value": "562.25"
+                                                }
+                                            ]
+                                        },
+                                        "type": "Section"
+                                    }
+                                ]
+                            },
+                            "Summary": {
+                                "ColData": [
+                                    {
+                                        "value": "Total Landscaping Services"
+                                    },
+                                    {
+                                        "value": "842.25"
+                                    }
+                                ]
+                            },
+                            "type": "Section"
+                        },
+                        {
+                            "ColData": [
+                                {
+                                    "value": "Pest Control Services",
+                                    "id": "54"
+                                },
+                                {
+                                    "value": "70.00"
+                                }
+                            ],
+                            "type": "Data"
+                        }
+                    ]
+                },
+                "Summary": {
+                    "ColData": [
+                        {
+                            "value": "Total Income"
+                        },
+                        {
+                            "value": "912.25"
+                        }
+                    ]
+                },
+                "type": "Section",
+                "group": "Income"
+            },
+            {
+                "Summary": {
+                    "ColData": [
+                        {
+                            "value": "Gross Profit"
+                        },
+                        {
+                            "value": "912.25"
+                        }
+                    ]
+                },
+                "type": "Section",
+                "group": "GrossProfit"
+            },
+            {
+                "Header": {
+                    "ColData": [
+                        {
+                            "value": "Expenses"
+                        },
+                        {
+                            "value": ""
+                        }
+                    ]
+                },
+                "Rows": {
+                    "Row": [
+                        {
+                            "Header": {
+                                "ColData": [
+                                    {
+                                        "value": "Legal & Professional Fees",
+                                        "id": "12"
+                                    },
+                                    {
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "Rows": {
+                                "Row": [
+                                    {
+                                        "ColData": [
+                                            {
+                                                "value": "Accounting",
+                                                "id": "69"
+                                            },
+                                            {
+                                                "value": "250.00"
+                                            }
+                                        ],
+                                        "type": "Data"
+                                    },
+                                    {
+                                        "ColData": [
+                                            {
+                                                "value": "Lawyer",
+                                                "id": "71"
+                                            },
+                                            {
+                                                "value": "300.00"
+                                            }
+                                        ],
+                                        "type": "Data"
+                                    }
+                                ]
+                            },
+                            "Summary": {
+                                "ColData": [
+                                    {
+                                        "value": "Total Legal & Professional Fees"
+                                    },
+                                    {
+                                        "value": "550.00"
+                                    }
+                                ]
+                            },
+                            "type": "Section"
+                        }
+                    ]
+                },
+                "Summary": {
+                    "ColData": [
+                        {
+                            "value": "Total Expenses"
+                        },
+                        {
+                            "value": "550.00"
+                        }
+                    ]
+                },
+                "type": "Section",
+                "group": "Expenses"
+            },
+            {
+                "Summary": {
+                    "ColData": [
+                        {
+                            "value": "Net Operating Income"
+                        },
+                        {
+                            "value": "362.25"
+                        }
+                    ]
+                },
+                "type": "Section",
+                "group": "NetOperatingIncome"
+            },
+            {
+                "Summary": {
+                    "ColData": [
+                        {
+                            "value": "Net Income"
+                        },
+                        {
+                            "value": "362.25"
+                        }
+                    ]
+                },
+                "type": "Section",
+                "group": "NetIncome"
+            }
+        ]
+    }
+}
